@@ -1,4 +1,4 @@
-# dump
+# dumpit
 
 Recursively dump a project's files into a single markdown file using fenced code block with the related language tag of the file.
 I use alot for pasting a codebase into an LLM or sharing it as one document.
