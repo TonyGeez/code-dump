@@ -1,0 +1,34 @@
+{
+  "name": "dumpit",
+  "version": "1.0.1",
+  "description": "Recursively dump a project's files into a single markdown file",
+  "homepage": "https://github.com/TonyGeez/dumpit#readme",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "bugs": {
+    "url": "https://github.com/TonyGeez/dumpit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyGeez/dumpit.git"
+  },
+  "license": "MIT",
+  "author": "TonyGeez",
+  "type": "module",
+  "bin": {
+    "dumpit": "./index.js"
+  },
+  "dependencies": {
+    "eslint": "^10.11.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.9"
+  }
+}
