@@ -1,4 +1,4 @@
-# code-dump
+# dump-code
 
 Recursively dump a project's files into a single markdown file using fenced code block with the related language tag of the file.
 I use alot for pasting a codebase into an LLM or sharing it as one document.
@@ -6,7 +6,7 @@ I use alot for pasting a codebase into an LLM or sharing it as one document.
 ## Install
 
 ```bash
-npm install -g code-dump
+npm install -g dump-code
 ```
 
 Requires Node.js 14.18 or newer.
@@ -16,7 +16,7 @@ Requires Node.js 14.18 or newer.
 Run it from the root of the project you want to dump:
 
 ```bash
-code-dump
+dump-code
 ```
 
 This writes `dump.md` in the current directory.

@@ -1,8 +1,8 @@
 {
-  "name": "code-dump",
-  "version": "1.0.5",
+  "name": "dump-code",
+  "version": "1.0.1",
   "description": "Recursively dump a project's files into a single markdown file",
-  "homepage": "https://github.com/TonyGeez/code-dump#readme",
+  "homepage": "https://github.com/TonyGeez/dump-code#readme",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -10,11 +10,11 @@
     "format:check": "prettier --check ."
   },
   "bugs": {
-    "url": "https://github.com/TonyGeez/code-dump/issues"
+    "url": "https://github.com/TonyGeez/dump-code/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TonyGeez/code-dump.git"
+    "url": "git+https://github.com/TonyGeez/dump-code.git"
   },
   "license": "MIT",
   "author": "TonyGeez",
