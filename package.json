@@ -1,8 +1,8 @@
 {
-  "name": "dumpit",
+  "name": "code-dump",
   "version": "1.0.1",
   "description": "Recursively dump a project's files into a single markdown file",
-  "homepage": "https://github.com/TonyGeez/dumpit#readme",
+  "homepage": "https://github.com/TonyGeez/code-dump#readme",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -10,17 +10,17 @@
     "format:check": "prettier --check ."
   },
   "bugs": {
-    "url": "https://github.com/TonyGeez/dumpit/issues"
+    "url": "https://github.com/TonyGeez/code-dump/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TonyGeez/dumpit.git"
+    "url": "git+https://github.com/TonyGeez/code-dump.git"
   },
   "license": "MIT",
   "author": "TonyGeez",
   "type": "module",
   "bin": {
-    "dumpit": "./index.js"
+    "dumpit": "index.js"
   },
   "dependencies": {
     "eslint": "^10.11.0"

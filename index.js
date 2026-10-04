@@ -339,7 +339,7 @@ function parseArgs(argv) {
   const single = { "-o": "output", "--output": "output" }
 
   const usage = () => {
-    console.log(`usage: dumpit [-h] [-i [IGNORE ...]] [--only [ONLY ...]]
+    console.log(`usage: dump [-h] [-i [IGNORE ...]] [--only [ONLY ...]]
             [-x [EXTENSION ...]] [-o OUTPUT]
 
 Dump files recursively into a markdown file.

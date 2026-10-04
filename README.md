@@ -1,4 +1,4 @@
-# dumpit
+# code-dump
 
 Recursively dump a project's files into a single markdown file using fenced code block with the related language tag of the file.
 I use alot for pasting a codebase into an LLM or sharing it as one document.
@@ -6,7 +6,7 @@ I use alot for pasting a codebase into an LLM or sharing it as one document.
 ## Install
 
 ```bash
-npm install -g dumpit
+npm install -g code-dump
 ```
 
 Requires Node.js 14.18 or newer.
@@ -16,7 +16,7 @@ Requires Node.js 14.18 or newer.
 Run it from the root of the project you want to dump:
 
 ```bash
-dumpit
+code-dump
 ```
 
 This writes `dump.md` in the current directory.
@@ -35,18 +35,18 @@ This writes `dump.md` in the current directory.
 
 ```bash
 # Only Python and JavaScript files
-dumpit -x py js
+dump -x py js
 
 # Ignore a folder and all log files
-dumpit -i node_modules "*.log"
+dump -i node_modules "*.log"
 
 # Only the src folder and one file, written to a custom output
-dumpit --only src package.json -o project.md
+dump --only src package.json -o project.md
 ```
 
 ## Ignore files
 
-`dumpit` automatically reads these from the current directory, if they exist:
+`dump` automatically reads these from the current directory, if they exist:
 
 1. `.gitignore`
 2. `.dumpignore`
