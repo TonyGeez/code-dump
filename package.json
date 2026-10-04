@@ -1,6 +1,6 @@
 {
   "name": "code-dump",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Recursively dump a project's files into a single markdown file",
   "homepage": "https://github.com/TonyGeez/code-dump#readme",
   "scripts": {
